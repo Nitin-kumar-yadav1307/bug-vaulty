@@ -1,0 +1,36 @@
+{
+  "name": "bugvaulty",
+  "version": "1.0.0",
+  "description": "Automatically track errors to Notion with AI solutions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nitin-kumar-yadav1307/bug-vaulty.git"
+  },
+  "main": "src/index.js",
+  "type": "commonjs",
+  "exports": {
+    ".": "./src/index.js",
+    "./react": "./react/index.js"
+  },
+  "files": [
+    "src",
+    "react",
+    "README.md"
+  ],
+  "keywords": [
+    "notion",
+    "error-tracking",
+    "debugging",
+    "ai",
+    "mcp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "axios": "^1.6.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0"
+  }
+}
