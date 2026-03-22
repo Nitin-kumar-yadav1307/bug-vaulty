@@ -1,6 +1,6 @@
 {
   "name": "bugvaulty",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically track errors to Notion with AI solutions",
   "repository": {
     "type": "git",
