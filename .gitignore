@@ -1,0 +1,4 @@
+node_modules/
+smoke-test/node_modules/
+package-lock.json
+.env
