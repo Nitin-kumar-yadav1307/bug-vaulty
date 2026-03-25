@@ -1,0 +1,14 @@
+{
+  "name": "bugvaulty-smoke-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local smoke test app for BugVaulty",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bugvaulty": "file:..",
+    "express": "^4.19.2"
+  }
+}
